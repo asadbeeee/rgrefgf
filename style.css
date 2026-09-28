@@ -1,0 +1,61 @@
+.circle {
+    background-color: aqua;
+    position: relative;
+    left: 0;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 250px;
+    height: 250px;
+}
+
+
+body {
+    padding: 50px;
+}
+
+@keyframes circle {
+    0% {
+        left: 0;
+        top: 0;
+        background-color: aqua;
+    }
+
+    20% {
+        background-color: red;
+
+
+    }
+
+    32% {
+        left: 1000px;
+        top: 0;
+        background-color: blanchedalmond;
+
+
+    }
+
+    50% {
+        left: 1000px;
+        top: 500px;
+        background-color: black;
+    }
+
+    68%{
+      background-color: brown;
+    }
+
+    80%{
+      left: 0;
+      top: 500px;
+      background-color: orange;
+    }
+
+
+    100%{
+        left: 0;
+        top: 0;
+        background-color: blue;
+    }
+}
